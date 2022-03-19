@@ -27,6 +27,8 @@ jobs:
       with:
         channel: 'beta' # 'dev', 'alpha', default to: 'stable'
         # flutter-version: '1.12.x' # you can also specify exact version of flutter
+        # Sample Code to get flutter version environment #https://github.com/marketplace/actions/get-the-flutter-version-environment
+        
     
     # Get flutter dependencies.
     - run: flutter pub get
